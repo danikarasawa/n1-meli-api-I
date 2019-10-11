@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,18 @@
     <title>Reprograma - administrator</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
-       <a href='https://reprograma.com.br/' target="_blank"> 
-           <img src="./imgs/reprograma.png" alt="logo da reprograma">
-       </a> 
+        <a href='https://reprograma.com.br/' target="_blank">
+            <img src="./imgs/reprograma.png" alt="logo da reprograma">
+        </a>
     </header>
-   
+
     <h1>Alunas e Profs </h1>
     <div class='page'>
-        
+
         <div class="input-field">
             <label for="name">Nome da aluna</label>
             <input type="text" id="name">
@@ -26,21 +28,11 @@
             <label for="dataDeNascimento">Data de nascimento</label>
             <input type="data" id="dataDeNascimento" placeholder="dd/mm/aaaa">
         </div>
-        <fieldset >
+        <fieldset>
             <legend tabIndex="0">Nasceu em SP?</legend>
-            <input
-                type="radio"
-                name="nasceuEmSp"
-                id="sim"
-                value="sim"
-            />
+            <input type="radio" name="nasceuEmSp" id="sim" value="sim" />
             <label for="sim">Sim</label>
-            <input
-                type="radio"
-                name="nasceuEmSp"
-                id="nao"
-                value="nao"
-            />
+            <input type="radio" name="nasceuEmSp" id="nao" value="nao" />
             <label for="nao">Não</label>
         </fieldset>
         <button id="inputAluna">Enviar Aluna</button>
@@ -50,11 +42,12 @@
     </div>
 
     <div class="alunas-container">
-       <ul class="aluninhas"></ul>
+        <ul class="aluninhas"></ul>
     </div>
-    
 
-      <footer>code by natalya</footer>
+
+    <footer>code by natalya</footer>
 </body>
 <script src="ex-day5.js"></script>
+
 </html>
